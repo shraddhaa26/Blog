@@ -1,0 +1,587 @@
+.main{
+    color: cornsilk;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    border-bottom: 4px cornsilk solid;
+}
+
+.nav{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    margin-left: -40px;
+    padding-left: 20px;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav::after{
+    box-shadow: 0 4px 12px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: chartreuse;
+}
+.nav:hover{
+    
+    transform: scale(1,1);
+    background-color: chartreuse;
+}
+.nav:hover::after{
+    background-color: chartreuse;
+}
+
+.search{
+    width: 700px;
+    height: 30px;
+    border: none;
+    opacity: 0.7;
+}
+
+.menu{
+    opacity: 0;
+    border: 3px rgb(87, 80, 80) double;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+}
+.line{
+    background-color: black;
+    height: 3px;
+    margin-bottom: 3px;
+}
+.tlogo{
+    height: 40px;
+    border-radius: 50%;
+}
+.i{
+    margin-left: 150px;
+    background-color: none;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.y{
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+}
+#page1{
+    background-image: url("R.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+h8{
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+b{
+    visibility: hidden;
+}
+
+.box{
+    margin-top: 150px;
+    margin-left: 80px;
+    border-top: 4px gold solid;
+    border-bottom: 4px gold solid;
+    background-color: black;
+    opacity: 0.8;
+    height: 300px;
+    width: 200px;
+    position: fixed;
+}
+a:link{
+    text-decoration: none;
+}
+.box2{
+    color: azure;
+    height: 300px;
+    width: 500px;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-style: italic;
+    border: 2px blanchedalmond groove;
+    animation-name: princeanimation;
+    animation-duration: 4s;
+    animation: princeanimation 4s infinite ;
+
+}
+
+@keyframes princeanimation {
+          0%{opacity: 0.1;}
+          25%{opacity: 0.5;}
+          50%{opacity: 0.7;}
+          100%{opacity: 1;}
+}
+
+
+
+
+
+#page2{
+    background-color: cornsilk;
+           height: 100%;
+           width: 100%;
+           padding-top: 30px;
+           display: flex;
+}
+.card1{
+    height: 230px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-image: url("OIP.jpg");
+    padding-top: 10px;
+
+    box-shadow: 0 2px 4px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card1::after{
+    box-shadow: 0 4px 12px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+}
+.card1:hover{
+    
+    transform: scale(1.05,1.05);
+}
+.card1:hover::after{
+    opacity: 1.2;
+    
+}
+.topic{
+    height: 200px;
+    width: 220px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+    text-align: center;
+    opacity: 1;
+}
+
+.topic2{
+    height: 200px;
+    width: 220px;
+    background-color: gainsboro;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 1;
+}
+.topic3{
+    height: 200px;
+    width: 220px;
+    background-color: gainsboro;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 1;
+}
+.topic4{
+    height: 200px;
+    width: 220px;
+    background-color: gainsboro;
+    margin-left: 50px;
+    margin-top: 10px;
+    opacity: 1;
+    text-align: center;
+  }
+.card2{
+    height: 230px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-image: url("bob.jpg");
+    padding-top: 10px;
+
+    box-shadow: 0 2px 4px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card2::after{
+    box-shadow: 0 4px 12px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card2:hover{
+   
+    transform: scale(1.05,1.05);
+}
+.card2:hover::after{
+    opacity: 1.2;
+}
+
+.cardpaly{
+    margin-bottom: 20px;
+}
+
+.card4{
+    height: 230px;
+    width: 450px;
+    background-image: url("lotus.jpg");
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-shadow: 0 2px 4px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card4::after{
+    box-shadow: 0 4px 12px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card4:hover{
+ 
+    transform: scale(1.05,1.05);
+}
+.card4:hover::after{
+    opacity: 1.2;
+}
+
+.card5{
+    height: 230px;
+    width: 450px;
+    background-image: url("cityhub.jpg");
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-shadow: 0 2px 4px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card5::after{
+    box-shadow: 0 4px 12px black;
+    -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card5:hover{
+    
+    transform: scale(1.05,1.05);
+}
+.card5:hover::after{
+    opacity: 1.2;
+}
+
+#page3{
+    background-image: url("blog.jpg");
+             height: 100%;
+             width: 100%;
+            
+}
+.loginstate{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    text-shadow: rosybrown;
+    font-weight: bold;
+    background-color:blue;
+    opacity: 0.8;
+    width: 600px;
+    height: 393px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+.log{
+    height: 40px;
+    width: 330px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    border: none;
+}
+.page3box{
+    display: flex;
+}
+.logincard{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.logbox{
+    opacity: 1;
+}
+#logi{
+    height: 25px;
+}
+#logi2{
+    height: 25px;
+}
+#log2{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 10px red ;
+    background-color: orange;
+    color: papayawhip;
+}
+#page4{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(87, 80, 80);
+}
+.lastpage{
+    display: flex;
+}
+.help{
+    margin-left: 400px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+.developer{
+    
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+.community{
+    margin-left: 400px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+}
+.privacy{
+    font-size: 20px;
+    margin-left: 500px;
+    color: white;
+}
+.language{
+    width: 200px;
+    height: 30px;
+}
+.dev{
+    padding-left: 30px;
+}
+
+@media screen and (max-width:500px) {
+    #page1{
+        height: 100%;
+        width: 100%;
+        background-color: cornflowerblue;
+    }
+    .menu{
+        opacity: 1;
+    }
+    .box2{
+        width: 400px;
+        height: 200px;
+        margin-left: 30px;
+        
+    }
+    h8{
+        font-size: 25px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bold;
+        font-style: italic;
+        
+    }
+    .tlogo{
+        height: 25px;
+        
+    
+    }
+    .main{
+        font-size: 20px;
+    }
+    .search{
+        width: 250px;
+    }
+    .i{
+        margin-left: 0px;
+        height: 20px;
+    }
+    .y{
+        height: 20px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+    b{
+        visibility: visible;
+        font-size: 20px;
+    }
+    .box{
+        margin-top: 440;
+        height: none;
+        width: 100%;
+        margin-left: 0px;
+        border-top: none;
+        opacity: 1;
+        border-top: 4px orange solid;
+        padding-top: -10px;
+        
+        padding-bottom: 0px;
+    }
+    ul{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    
+    .nav{
+        font-size: 10px;
+        margin-left: 25px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    
+        
+        
+          
+        -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .nav::after{
+        background-color: black;
+        -webkit-transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+        
+    }
+    .nav:hover{
+        background-color: black;
+        transform: scale(1.25,1.25);
+        
+    }
+    .nav:hover::after{
+        opacity: 1.2;
+        background-color: black;
+
+    }
+    
+    #page2{
+        height: 1000px;
+        display: block;
+    }
+    .card1{
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .card2{
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .card4{
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .card5{
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    #topic{
+        height: 140px;
+    }
+    #page3{
+        height: 100%;
+        width: 450px;
+        background-image: none;
+        background-image: url("wp3.jpg");
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .page3box{
+        margin-left: 10px;
+        height: 100px;
+        display: block;
+    }
+    .loginstate{
+        margin-bottom: 0px;
+        width: 0px;
+        margin-left: 0px;
+        height: 0px;
+        font-size: 40px;
+        visibility: hidden;
+        text-align: center;
+        font-size: 0px;
+        padding-top: 0px;
+        margin-top: 0px;   
+    }
+    .log{
+        width: 80px;
+        height: 45px;
+        font-size: 20px;
+        
+    }
+
+    .logincard{
+        margin-left: 40px;
+        height: 200px;
+        width: 300px;
+        border-bottom: 8px blue double;
+        border-right: 8px blue double;
+    }
+
+
+
+    #page4{
+        width: 100%;
+        height: 600px;
+    }
+    .lastpage{
+        margin-left: 30px;
+    }
+    .help{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    
+    .community{
+        
+        margin-left: 30px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .privacy{
+        margin-top: 0px;
+        margin-left: 30px;
+        
+    }
+}
